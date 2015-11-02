@@ -107,8 +107,8 @@ public class Constants {
 
     // TODO move to resource files
     public static final List<CoinAddress> DEFAULT_COINS_SERVERS = ImmutableList.of(
-            new CoinAddress(AsiacoinMain.get(),     new ServerAddress("185.81.167.185", 30001)),
-
+            new CoinAddress(AsiacoinMain.get(),     new ServerAddress("185.81.167.185", 30001),
+                                                    new ServerAddress("185.81.165.138", 30001)),
             new CoinAddress(BitcoinMain.get(),      new ServerAddress("btc-cce-1.coinomi.net", 5001),
                                                     new ServerAddress("btc-cce-2.coinomi.net", 5001)),
             new CoinAddress(BitcoinTest.get(),      new ServerAddress("btc-testnet-cce-1.coinomi.net", 15001),
